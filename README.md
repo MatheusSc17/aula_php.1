@@ -150,3 +150,24 @@ function produto($eletro , $imposto){
     echo $nomecompleto. " = " .$valor;
     echo $nomecompleto. " = " .$valor;
     ?>
+
+
+
+
+
+-> WHILE
+    <?php
+
+#enquanto for falso o  while vai percorrer todo o vetor ate encontra o valor verdadeiro
+
+$numero = 1;
+
+while($numero <= 10){
+
+echo $numero. "<br>";
+$numero++;
+
+
+
+}
+?>
